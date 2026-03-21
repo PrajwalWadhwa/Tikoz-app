@@ -1,0 +1,33 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --red: #C62828;
+  --red-light: #FFEBEE;
+  --bg: #FAFAFA;
+  --bg2: #FFFFFF;
+  --text: #1A1A1A;
+  --text2: #666666;
+  --text3: #999999;
+  --border: #E5E5E5;
+  --green: #2E7D32;
+  --green-bg: #E8F5E9;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0A0A0A;
+    --bg2: #141414;
+    --text: #E8E8E8;
+    --text2: #999999;
+    --text3: #666666;
+    --border: #222222;
+    --red-light: #2A1010;
+    --green-bg: #0A1F0A;
+  }
+}
+body {
+  font-family: 'DM Sans', -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+}
+input, select, button { font-family: inherit; }
+input:focus, select:focus { border-color: var(--red) !important; outline: none; }
