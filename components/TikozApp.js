@@ -1,7 +1,7 @@
 'use client'
 import { useState, useEffect, useCallback, useMemo } from 'react'
-import { supabase } from '@/lib/supabase'
-import { PRICE_LIST, EXPENSE_CATS, STATUSES, STATUS_COLORS } from '@/lib/prices'
+import { supabase } from '../lib/supabase'
+import { PRICE_LIST, EXPENSE_CATS, STATUSES, STATUS_COLORS } from '../lib/prices'
 
 const fmt = n => '₹' + Number(n || 0).toLocaleString('en-IN', { maximumFractionDigits: 0 })
 const today = () => new Date().toISOString().slice(0, 10)
