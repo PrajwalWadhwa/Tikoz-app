@@ -59,11 +59,6 @@ function Landing({ onVendor, onAdmin }) {
           <div style={{ fontSize: 17, fontWeight: 700 }}>Place an order</div>
           <div style={{ fontSize: 13, color: 'var(--text2)', marginTop: 2 }}>View prices, order momos, track deliveries</div>
         </button>
-        <button onClick={onAdmin} style={{ padding: '24px', borderRadius: 16, border: '2px solid var(--border)', background: 'var(--bg2)', cursor: 'pointer', textAlign: 'left', fontFamily: 'inherit', color: 'var(--text)' }}>
-          <div style={{ fontSize: 28, marginBottom: 4 }}>⚙️</div>
-          <div style={{ fontSize: 17, fontWeight: 700 }}>Admin dashboard</div>
-          <div style={{ fontSize: 13, color: 'var(--text2)', marginTop: 2 }}>Manage orders, expenses, P&L</div>
-        </button>
       </div>
       <div style={{ marginTop: 48, fontSize: 11, color: 'var(--text3)', textAlign: 'center', lineHeight: 1.6 }}>Prajwal: 9911910001 · Vaibhav: 9999890012<br />tikoz.business@gmail.com</div>
     </div>
